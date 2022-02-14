@@ -1,5 +1,5 @@
 import './App.css';
-import { Signup } from './components/Sign'
+import { Signup } from './components/Signup'
 import { Success } from './components/Success'
 import { Switch, Route } from 'react-router-dom'
 

@@ -9,6 +9,7 @@
 }
 .button {
     background-color: #05386b !important;
+    text-decoration: none !important;
 }
 .success {
     width: 400px;
@@ -16,4 +17,14 @@
     border: 1px solid blue;
     margin: auto;
     margin-top: 250px;
+}
+.login{
+color: #90e6b6;
+ font-weight: 800;
+ font-style: normal !important
+}
+.already{
+      color: #05386b;
+      font-weight: 800;
+
 }

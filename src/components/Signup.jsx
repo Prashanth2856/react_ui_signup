@@ -13,6 +13,7 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import styles from './Sign.module.css'
 import { Link } from 'react-router-dom'
+import styledEngine from '@mui/styled-engine';
 
 
 
@@ -90,7 +91,6 @@ export const Signup = () => {
                                     fullWidth
                                     id="firstName"
                                     label="Mobile Number"
-                                    autoFocus
                                 />
                             </Grid>
                             <Grid item xs={12} sm={6}>
@@ -126,10 +126,10 @@ export const Signup = () => {
                             Create Account
                         </Button>
                         </Link>
-                        <Grid container justifyContent="flex-end">
+                        <Grid container justifyContent="center">
                             <Grid item>
                                 <Link href="#" variant="body2">
-                                    Already have an account? Log in
+                                    <p className={ styles.already}>Already have an account? <span className={ styles.login}> Log In</span></p>
                                 </Link>
                             </Grid>
                         </Grid>
