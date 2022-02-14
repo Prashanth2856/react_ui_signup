@@ -1,0 +1,19 @@
+.footer {
+    font-size: 13px;
+    font-style: normal !important;
+}
+.head {
+    color: #05386b;
+    font-weight: 800 !important;
+    font-style: normal !important ;
+}
+.button {
+    background-color: #05386b !important;
+}
+.success {
+    width: 400px;
+    height: 150px;
+    border: 1px solid blue;
+    margin: auto;
+    margin-top: 250px;
+}
